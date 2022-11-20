@@ -9,6 +9,12 @@
         <style>
             table, th, td{
                 border: 1px solid #000;
+                text-align: center;
+            }
+            div{
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
         </style>
     </head>

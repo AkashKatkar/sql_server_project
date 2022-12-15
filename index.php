@@ -32,7 +32,7 @@
                 $stmt = sqlsrv_query($conn, 'SELECT * FROM test_tbl');
                 while($rows = sqlsrv_fetch_array($stmt, SQLSRV_FETCH_ASSOC)){ ?>
                     <tr>
-                        <td><?php echo $a; ?></td>
+                        <td><?php echo $a++; ?></td>
                         <td><?php echo $rows['username']; ?></td>
                         <td><?php echo $rows['country_code']; ?></td>
                         <td><?php echo $rows['pnum']; ?></td>
